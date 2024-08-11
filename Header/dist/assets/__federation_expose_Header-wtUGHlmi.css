@@ -1,0 +1,33 @@
+/* styles.css */
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .icon-container img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  header .icon-container span {
+    font-size: 20px;
+  }
+  
+  header button {
+    margin-right: 10px;
+  }
+  
